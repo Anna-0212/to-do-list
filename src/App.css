@@ -1,38 +1,78 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fGJhY2tncm91bmQlMjB0dXJxdW9pc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aquamarine;
+} 
+.cramp-fish {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.fish {
+  border-radius: 50%;
+}
+.done{
+  border-radius: 50%;
+}
+
 .App {
-  text-align: center;
+  background-color: #E1FFEE;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #80ED99;
+}
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #1C3879;
+  font-size: 40px;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add {
+  margin-top: 5px;
+  background: #21E1E1;
+  color: #1C3879;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 70%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.delete {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  width: 70%;
   color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 20px;
+  background: #22577A;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  flex: 1;
+  margin: 10px;
+  padding: 8px;
+  font-family: 'Indie Flower', cursive;
 }
