@@ -49,7 +49,7 @@ export class ToDoList extends Component {
             <div>
                 <form onSubmit= {this.onFormSubmit}>
                     <div className="container">
-                        <input type="text" placeholder="What are your plans for today?" onChange= {(e) => {this.onChangeEvent(e.target.value)}} value= {this.state.userInputs} />
+                        <input type="text" placeholder="What are your plans for today?" onChange= {(e) => {this.onChangeEvent(e.target.value)}} value= {this.state.userInput} />
                     </div>
                     <div className="container">
                         <button onClick= {() => 
