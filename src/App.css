@@ -25,6 +25,9 @@ body {
 .crossed {
   text-decoration: line-through 2px red;
   background-color: #80ED99;
+  -webkit-text-decoration-line: line-through;
+-webkit-text-decoration-color: red;
+-webkit-text-decoration-thickness:2px;
 }
 ul, li {
   list-style-type: none;
